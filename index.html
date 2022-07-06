@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="stn1" >
+            <h3>GENERAL SETTINGS</h3>
+            <h5>Headline</h5>
+                <input type="text" id="headln">
+                <input type="button" value="Submit" onclick="fonk1()" >
+            <h5>Description</h5>
+                <input type="text"  id="desct0">
+                <input type="button" value="Submit" onclick="fonk2()">
+            <h5>Success Message</h5>
+                <input type="text" id="mssg">
+                <input type="button" value="Submit" onclick="fonk3()">
+        </div>
+        <div class="stn2" >
+            <div id="outer-pop">
+                
+                <div class="popup">
+                    <h1 id="headerpop">NEW STUFF</h1>
+                    <p id="desct1">Sign up for our newsletter and get 10% off your first order!</p>
+                    <div class="pop-in">    
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="pop-in">   
+                        <input type="email" name="" id="email" placeholder="Email">
+                    </div>
+
+                    <select id="fonts">
+                        
+
+                    </select>
+                      <div style="margin-top: 21px;">
+                        <input type="button" value="Get My %30 off" class="-modal">
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal hidden">
+            <button class="close-modal">&times;</button>
+            <h1 class="successmsg">SUCCESS</h1>
+            
+          </div>
+          <div class="overlay hidden"></div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
