@@ -1,0 +1,125 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+ }
+.container {
+    display:flex ;
+}
+ .stn1 {
+     
+     float: left;
+     width:25%;
+     height: 730px;
+     background-color: aliceblue;
+     padding:10px;
+ }
+ .stn2 {
+     width: 75%;
+     height: 740px;
+     text-align: center;
+     background-color: rgb(99, 97, 101);
+     align-items: center;
+ }
+.popup {
+    border: 1px solid blue;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    left: 800px;
+    top: 150px;
+    position: absolute;
+    background-color: whitesmoke;
+}
+#outer-pop {
+    margin: 0px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.pop-in {
+    margin: 20px;
+}
+
+
+.show-modal {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.75rem 3.5rem;
+    margin: 5rem 2rem;
+    border: none;
+    background-color: #fff;
+    color: #444;
+    border-radius: 10rem;
+    cursor: pointer;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    font-size: 5rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    font-size: 1.8rem;
+  }
+  
+
+  .hidden {
+    display: none;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+  
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
